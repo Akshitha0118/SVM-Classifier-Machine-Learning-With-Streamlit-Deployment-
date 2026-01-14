@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-dataset=pd.read_csv(r'C:\Users\ADMIN\Downloads\logit classification.csv')  
+dataset=pd.read_csv('Social_Network_Ads.csv')  
 
 x= dataset.iloc[:,[2,3]].values
 y = dataset.iloc[: , -1].values
